@@ -204,7 +204,7 @@ gmap.plot(latitude_list,longitude_list,edge_width=4,color='cornflowerblue')
 gmap.scatter(latitude_list,longitude_list,'#fb9214', size = 0.4, marker = False)
 gmap.marker(latitude_list[0], longitude_list[0], color = 'red', title = 'start point')
 gmap.coloricon
-gmap.apikey = "AIzaSyCLfWwWJhjH4hbph9N6X3GTgWr4bboLUQ0"
+gmap.apikey = "#" #apikey
 gmap.draw( "map.html")
 
 
